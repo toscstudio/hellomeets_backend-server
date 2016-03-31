@@ -1,0 +1,31 @@
+{
+  "name": "hellomeets-backend",
+  "version": "0.1.0",
+  "description": "HelloMeets Backend Based on Parse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/hellomeets/backend-server.git"
+  },
+  "keywords": [
+    "hellomeets"
+  ],
+  "author": "Team OSC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://gitlab.com/hellomeets/backend-server/issues"
+  },
+  "homepage": "https://gitlab.com/hellomeets/backend-server#README",
+  "dependencies": {
+    "express": "^4.13.4",
+    "parse-server": "^2.2.4",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
